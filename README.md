@@ -19,3 +19,7 @@ Used fastqc.slurm and multiqc.slurm on the blood datasets
 2026/11/06
 Used fastp.slurm to preprocess the raw reads
 Then again used fastqc.slurm and multiqc.slurm on the preprocessed reads
+Blasted the overrepresented sequences from the multiqc on the ncbi website with blastn and filtered for the top 10 hits per sequence. 
+    All but two sequences are hits for ribosomal rna
+    seq_12 has different results but seems to be a virus
+    seq_17 seems to be Apodemus sylvaticus 5'-aminolevulinate synthase 2 (Alas2) transcript variant 3 or 6
