@@ -9,8 +9,8 @@
 #SBATCH --partition=pibu_el8
 #SBATCH --mail-user=andrin.rickli@students.unibe.ch
 #SBATCH --mail-type=begin,end
-#SBATCH --output=/data/users/arickli/rna-seq-class/output/multiqc/output_fastqc_%j_%x.o
-#SBATCH --error=/data/users/arickli/rna-seq-class/output/multiqc/error_fastqc_%j_%x.e
+#SBATCH --output=/data/users/arickli/rna-seq-class/output/multiqc_20261106/output_fastqc_%j_%x.o
+#SBATCH --error=/data/users/arickli/rna-seq-class/output/multiqc_20261106/error_fastqc_%j_%x.e
 
 
 OUTDIR="/data/users/arickli/rna-seq-class/output/fastqc_20261106"
