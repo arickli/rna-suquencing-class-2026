@@ -22,3 +22,9 @@ Blasted the overrepresented sequences from the multiqc on the ncbi website with 
     All but two sequences are hits for ribosomal rna
     seq_12 has different results but seems to be a virus
     seq_17 seems to be Apodemus sylvaticus 5'-aminolevulinate synthase 2 (Alas2) transcript variant 3 or 6
+
+2026/11/10
+downloaded the reference files (.fa.gz and .gtf.gz) and tested them for completeness (sum of the files)
+Used hisat2-index.slurm to index the downloaded mouse reference genome with the downloaded .gtf.gz file
+Used mapping-and-sorting.slurm to map all the files to the reference sequence (hisat2) and then converted it to a .bam file (samtools), then sorted the reads by genomic coordinates (samtools) and then indexed the reads (samtools).
+The error files from the mapping-and-sorting.slurm were copied into a summary table using the scripts sort_mapping_statistics.sh
