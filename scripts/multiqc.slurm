@@ -13,8 +13,8 @@
 #SBATCH --error=/data/users/arickli/rna-seq-class/output/multiqc_20261106/error_fastqc_%j_%x.e
 
 
-OUTDIR="/data/users/arickli/rna-seq-class/output/fastqc_20261106"
-MULTIQC_DIR="/data/users/arickli/rna-seq-class/output/multiqc_20261106"
+OUTDIR="/data/users/arickli/rna-seq-class/output/mapping"
+MULTIQC_DIR="/data/users/arickli/rna-seq-class/output/mapping"
 
 mkdir -p "$MULTIQC_DIR"
 
