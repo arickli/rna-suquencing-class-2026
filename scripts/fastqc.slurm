@@ -13,8 +13,8 @@
 #SBATCH --error=/data/users/arickli/rna-seq-class/output/fastqc_20261106/error_fastqc_%j_%x.e
 
 
-#DATASTORE="/data/courses/rnaseq_course/toxoplasma_de/reads_Blood"
-DATASTORE="/data/users/arickli/rna-seq-class/output/fastp"
+DATASTORE="/data/courses/rnaseq_course/toxoplasma_de/reads_Blood"
+#DATASTORE="/data/users/arickli/rna-seq-class/output/fastp"
 OUTDIR="/data/users/arickli/rna-seq-class/output/fastqc_20261106/"
 
 mkdir -p "$OUTDIR"
